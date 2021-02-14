@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tab-active {
+    @apply border-b-4 border-purple-500;
+}
+
+.arrow-rotate {
+    @apply transform rotate-180;
+}
+
+#custom-scroll::-webkit-scrollbar {
+    width: 4px;
+    cursor: pointer;
+    /*background-color: rgba(229, 231, 235, var(--bg-opacity));*/
+
+}
+#custom-scroll::-webkit-scrollbar-track {
+    background-color: rgba(229, 231, 235, var(--bg-opacity));
+    cursor: pointer;
+    /*background: red;*/
+}
+#custom-scroll::-webkit-scrollbar-thumb {
+    cursor: pointer;
+    background-color: #8B5CF6;
+    /*outline: 1px solid slategrey;*/
+}

@@ -1,0 +1,41 @@
+@extends('layout.main')
+
+@section('title')
+   404 | Not Found
+@endsection
+
+@section('content')
+
+   <div class="container mx-auto py-16 px-8 md:px-16">
+      <div class="w-full flex flex-col items-center justify-center">
+         <h1 class="font-bold text-purple-500 text-10xl md:text-12xl
+                    lg:text-18xl">
+            404
+         </h1>
+         <span class="w-full md:w-1/2 text-center text-lg">Такой страницы нет
+            . Вероятно,
+            ссылка, по
+            которой вы сюда попали, устарела, или вы ошиблись, когда
+            набирали адрес.</span>
+         <span class="w-full md:w-1/2 text-center text-lg mt-4">
+            Вы можете перейти на
+            <a href="{{ route('main.index') }}"
+               class="text-purple-500 hover:text-blue-700">
+               главную страницу
+            </a>
+            , посмотреть
+            <a href="{{ route('recipe.index') }}"
+               class="text-purple-500 hover:text-blue-700">
+               рецепты
+            </a>
+            , или воспользоваться
+            <a href="{{ route('search.index') }}"
+               class="text-purple-500 hover:text-blue-700">
+               поиском
+            </a>
+            .
+         </span>
+      </div>
+   </div>
+
+@endsection

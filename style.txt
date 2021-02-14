@@ -1,0 +1,70 @@
+
+/* Transition */
+ease-in
+duration-150
+
+/* Margins */
+по у 4
+между элементами 2
+
+/* Input */
+px-4
+py-1.5
+border
+lg:my-0
+my-4
+outline-none
+border-black
+rounded
+focus:ring-4
+focus:outline-none
+focus:ring-gray-300
+focus:ring-opacity-75
+
+/* Buttons */
+fill-button-green
+    bg-green-500
+    px-6
+    py-1.5
+    outline-none
+    rounded
+    text-white
+    hover:bg-green-600
+    transition
+    ease-in
+    duration-150
+    focus:outline-none
+    focus:ring-4
+    focus:ring-green-500
+    focus:ring-opacity-50
+
+fill-button-purple
+    ring-purple-600
+    px-6
+    py-1.5
+    outline-none
+    rounded
+    text-white
+    hover:bg-green-700
+    transition
+    ease-in
+    duration-150
+    focus:outline-none
+    focus:ring-4
+    focus:ring-purple-600
+    focus:ring-opacity-50
+
+empty-button
+    border
+    border-black
+    px-6
+    py-1.5
+    outline-none
+    rounded
+    hover:bg-gray-100
+    transition ease-in
+    duration-150
+    focus:outline-none
+    focus:ring-4
+    focus:ring-gray-300
+    focus:ring-opacity-50
